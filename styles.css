@@ -1532,7 +1532,8 @@ button { font: inherit; }
 
 .recommendation-grid {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
   gap: 18px;
   margin-top: 28px;
 }
