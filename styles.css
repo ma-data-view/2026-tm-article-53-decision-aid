@@ -301,6 +301,20 @@ button { font: inherit; }
   color: var(--ink);
 }
 
+.quick-take li.risk-conclusion {
+  list-style: none;
+  margin-left: -1.15rem;
+  padding: 14px 16px;
+  background: var(--bad-soft);
+  border: 2px solid var(--bad);
+  border-radius: 10px;
+  color: var(--ink);
+}
+
+.quick-take li.risk-conclusion strong {
+  color: var(--bad);
+}
+
 .quick-take strong {
   color: var(--ink);
   font-weight: 700;
@@ -327,6 +341,21 @@ button { font: inherit; }
 .section-eyebrow .muted {
   color: var(--ink);
   font-size: 1.02rem;
+}
+
+.section-subhead {
+  max-width: 680px;
+  margin: 2px auto 22px;
+  padding: 12px 16px;
+  background: #fff3cc;
+  border: 1.5px solid var(--accent);
+  border-radius: 10px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.14rem, 2vw, 1.34rem);
+  line-height: 1.35;
+  color: var(--accent-ink) !important;
+  text-align: center;
 }
 
 .argument-intro {
@@ -1381,6 +1410,15 @@ button { font: inherit; }
 }
 
 .tax-card.highlighted strong { color: var(--good); }
+
+.tax-card.risk-highlight {
+  background: var(--bad-soft);
+  border-color: var(--bad);
+}
+
+.tax-card.risk-highlight strong {
+  color: var(--bad);
+}
 
 .tax-grid {
   display: grid;
