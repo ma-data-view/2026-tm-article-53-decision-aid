@@ -291,6 +291,16 @@ button { font: inherit; }
   line-height: 1.5;
 }
 
+.quick-take li.highlight-conclusion {
+  list-style: none;
+  margin-left: -1.15rem;
+  padding: 14px 16px;
+  background: #fff3cc;
+  border: 2px solid var(--accent);
+  border-radius: 10px;
+  color: var(--ink);
+}
+
 .quick-take strong {
   color: var(--ink);
   font-weight: 700;
@@ -305,6 +315,9 @@ button { font: inherit; }
 
 .section-eyebrow h2 {
   text-align: center;
+  color: var(--accent-ink);
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  line-height: 1.08;
 }
 
 .section-eyebrow > p {
