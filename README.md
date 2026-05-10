@@ -33,7 +33,7 @@ bonus floor may not get built, and the town gets less of everything.
 5. Tax base benchmark, using two cleaner corridor mixed-use assessment comps.
 6. Sources, full citations.
 
-## Model assumptions
+## Calculations and data sources
 
 - The simulation uses withdrawn 126 Broadway / Docket #3862 because it is the stress-test podium-garage layout.
 - 259 Broadway and the new 126-128 Broadway plan appear to pass under Cullinane; they are useful pass-case examples but do not show the tradeoff.
@@ -62,11 +62,6 @@ bonus floor may not get built, and the town gets less of everything.
 - Cullinane-Slotnick Substitute Motion, dated 4/28/2026.
 - ARB Docket #3862 (126 Broadway), minutes of Oct 20 and Nov 17, 2025.
 - Arlington FY2025 public assessor records for corridor mixed-use comparison properties.
-- Local plan PDFs:
-  - `126 Broadway  architectural plans  UPDATED 11625.pdf`
-  - `126  128 Broadway  Architectural Plans  3242026.pdf`
-  - `259 Broadway  Plans  Drawings  UPDATED 22326.pdf`
-
 The "bonus likely skipped" framing reflects the cumulative effect of
 the cited bylaws and codes on the Docket #3862 stress-test lot, not a
 formal engineering or legal opinion.
